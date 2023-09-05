@@ -7,7 +7,20 @@ const io = require('socket.io')(server);
 
 app.use(express.static(path.join(__dirname, 'public')));
 
+// We use sets cause every id of the socket is unique
+let socketsConnected = new Set();
+console.log(socketsConnected)
+const onConnected = (socket) => {
+  console.log(socket.id)
+  socketsConnected.add(socket.id)
+  console.log(socketsConnected)
+  socket.on('disconnect', ()=> {
+    console.log('Socket disconnected', socket.id)
+    socketsConnected.delete(socket.id)
+    console.log(socketsConnected)
+  })
+}
+
 //listen for socket:
-io.on('connection', (socket)=> {
-  console.log(socket.id);
-})
+io.on('connection', onConnected)
+
