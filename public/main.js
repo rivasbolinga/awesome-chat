@@ -12,7 +12,7 @@ const sendMessage = () => {
   const data = {
     name: nameInput.Value,
     message: messageInput.value,
-    dateTime: new Date();
+    dateTime: new Date(),
   }
   socket.emit('message', data)
 }
@@ -24,4 +24,8 @@ messageForm.addEventListener('submit', (e)=> {
 
 socket.on('clients-total', (data)=> {
  clientsTotal.innerText = `Total clients: ${data}`
+})
+
+socket.on('chat-message', (data)=> {
+  console.log(data, 'from chat')
 })

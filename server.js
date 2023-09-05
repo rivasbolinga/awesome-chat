@@ -18,6 +18,10 @@ const onConnected = (socket) => {
     socketsConnected.delete(socket.id)
      io.emit('clients-total', socketsConnected.size)
   })
+  socket.on('message', (data)=> {
+    console.log(data, 'from socket');
+    socket.broadcast.emit('chat-message', data);
+  })
 }
 
 //listen for socket:
