@@ -9,6 +9,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // We use sets cause every id of the socket is unique
 let socketsConnected = new Set();
+
 const onConnected = (socket) => {
   socketsConnected.add(socket.id)
   io.emit('clients-total', socketsConnected.size)

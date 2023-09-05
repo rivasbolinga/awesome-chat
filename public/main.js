@@ -9,7 +9,12 @@ const messageInput = document.getElementById('message-input');
 
 
 const sendMessage = () => {
-  console.log(messageInput.value);
+  const data = {
+    name: nameInput.Value,
+    message: messageInput.value,
+    dateTime: new Date();
+  }
+  socket.emit('message', data)
 }
 
 messageForm.addEventListener('submit', (e)=> {
