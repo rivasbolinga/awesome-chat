@@ -1,8 +1,7 @@
 <div align="center">
 
 # Awesome Chat 
-
-![Colorful Inspirational Self Love Phone Reminder Instagram Story](https://github.com/rivasbolinga/chat-app/assets/103900838/d28d92b3-5d22-45f3-b2b3-31461d267ab3)
+<img width="400px" src="https://github.com/rivasbolinga/chat-app/assets/103900838/d28d92b3-5d22-45f3-b2b3-31461d267ab3"/>
 
 
 </div>
