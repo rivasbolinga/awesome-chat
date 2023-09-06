@@ -98,7 +98,7 @@ To run the project, execute the following command:
 
 <!-- AUTHORS -->
 
-# 👩🏽‍💻👩 Authors <a name="authors"></a>
+# 👩🏽‍💻 Authors <a name="authors"></a>
 
 
  ### 💁🏽‍♀️ **Andrea Rivas**
