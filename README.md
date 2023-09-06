@@ -29,7 +29,7 @@
 
 <p>A chat application is a digital platform facilitating real-time text-based communication between users, enabling instant messaging, sharing media, and emoticons.</p>
 <p>Built with the purpose of learning Web Sockets with node.js using Express</p>
-----
+
   
 # 🛠🛠 Built With 🛠🛠<a name="built-with"></a>
 
