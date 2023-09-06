@@ -1,7 +1,7 @@
 <div align="center">
 
-# Awesome Chat 
-<img width="500px" src="https://github.com/rivasbolinga/chat-app/assets/103900838/d28d92b3-5d22-45f3-b2b3-31461d267ab3"/>
+# AWESOME CHAT
+<img width="600px" src="https://github.com/rivasbolinga/chat-app/assets/103900838/d28d92b3-5d22-45f3-b2b3-31461d267ab3"/>
 
 
 </div>
