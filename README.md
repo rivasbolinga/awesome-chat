@@ -35,16 +35,14 @@
 
 
 <a href="https://nodejs.org/en" target="_blank"><img align="center" src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg" alt="html5" width="100" height="50"/></a>
-<a href="https://www.mongodb.com/" target="_blank"><img align="center" src="https://upload.wikimedia.org/wikipedia/commons/9/93/MongoDB_Logo.svg" alt="html5" width="150" height="120"/></a>
 <a href="https://expressjs.com/" target="_blank"><img align="center" src="https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png" alt="html5" width="170" height="40"/></a>
-<a href="https://mongoosejs.com/" target="_blank"><img width="104" alt="Screenshot 2023-08-27 at 10 49 26" src="https://github.com/rivasbolinga/natours-api/assets/103900838/eb9d4713-d839-4d9d-bf64-b865913ee017">
 
 
 ----
 
 <!-- Features -->
 
-# 👣👣👣👣 Key Features 👣👣👣👣 <a name="key-features"></a>
+# 👣👣 Key Features 👣👣 <a name="key-features"></a>
 
 - [ ] **Instant messages**
 - [ ] **Unlimited users can join**
