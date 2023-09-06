@@ -25,13 +25,13 @@
 
 <!-- ABOUT THE PROJECT -->
 
-# 🖌️🖌️ About the project <a name="getting-started"></a> 🖌️🖌️🖌
+# 🖌️🖌️ About the project <a name="getting-started"></a>
 
 <p>A chat application is a digital platform facilitating real-time text-based communication between users, enabling instant messaging, sharing media, and emoticons.</p>
 <p>Built with the purpose of learning Web Sockets with node.js using Express</p>
 
   
-# 🛠🛠 Built With 🛠🛠<a name="built-with"></a>
+# 🛠🛠 Built With <a name="built-with"></a>
 
 
 <a href="https://nodejs.org/en" target="_blank"><img align="center" src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg" alt="html5" width="100" height="50"/></a>
@@ -42,7 +42,7 @@
 
 <!-- Features -->
 
-# 👣👣 Key Features 👣👣 <a name="key-features"></a>
+# 👣👣 Key Features <a name="key-features"></a>
 
 - [ ] **Instant messages**
 - [ ] **Unlimited users can join**
@@ -51,7 +51,7 @@
 
 <!-- GETTING STARTED -->
 
-# 🚀🚀 Getting Started  🚀🚀<a name="getting-started"></a>
+# 🚀🚀 Getting Started  <a name="getting-started"></a>
 
 ### Prerequisites
 
@@ -94,11 +94,11 @@ To run the project, execute the following command:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-----
+
 
 <!-- AUTHORS -->
 
-# 👩🏽‍💻👩🏽‍💻 Authors 👩🏽‍💻👩🏽‍💻 <a name="authors"></a>
+# 👩🏽‍💻👩🏽‍💻 Authors <a name="authors"></a>
 
 
  ### 💁🏽‍♀️ **Andrea Rivas**
@@ -108,7 +108,7 @@ To run the project, execute the following command:
 - Twitter: [@AndreaRivasPal](https://twitter.com/AndreaRivasPal)
 - LinkedIn: [andrearivaspalacios](https://www.linkedin.com/in/andrearivaspalacios/)<!-- CONTRIBUTING -->
 
-# 🤝🤝 Contributing 🤝🤝<a name="contributing"></a>
+# 🤝🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
@@ -118,7 +118,7 @@ Feel free to check the [issues page](./).
 
 <!-- SUPPORT -->
 
-# ⭐️⭐️ Show your support ⭐️⭐️<a name="support"></a>
+# ⭐️⭐️ Show your support<a name="support"></a>
 
 If you like this project, please give it a star ⭐️.
 
@@ -126,7 +126,7 @@ If you like this project, please give it a star ⭐️.
 
 <!-- FUTURE FEATURES -->
 
-# 🔮🔮 Future Features 🔮🔮 <a name="future-features"></a>
+# 🔮🔮 Future Features  <a name="future-features"></a>
 
 - [ ] **Deploy it**
 - [ ] **Able to send media**
@@ -137,7 +137,7 @@ If you like this project, please give it a star ⭐️.
 
 <!-- ACKNOWLEDGEMENTS -->
 
-# 🙏🙏 Acknowledgments 🙏🙏 <a name="acknowledgements"></a>
+# 🙏🙏 Acknowledgments  <a name="acknowledgements"></a>
 
 I would like to thank Mafia Code for his tutorial who helped me to build my application: 
  Here the link: https://www.youtube.com/watch?v=RUL9yTzOTuU&list=PLdHg5T0SNpN09AlLBAYahKZUrAWsIL7No
