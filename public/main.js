@@ -8,11 +8,10 @@ const messageForm = document.getElementById('message-form');
 const messageInput = document.getElementById('message-input');
 
 const now = moment().format('h:mm')
-console.log(now)
 
 const sendMessage = () => {
   const data = {
-    name: nameInput.Value,
+    name: nameInput.value,
     message: messageInput.value,
     dateTime: new Date(),
   }
@@ -27,6 +26,7 @@ messageForm.addEventListener('submit', (e)=> {
 })
 
 socket.on('clients-total', (data)=> {
+
  clientsTotal.innerText = `Total clients: ${data}`
 })
 
@@ -36,7 +36,10 @@ socket.on('chat-message', (data)=> {
 
 const addMessageToUI = (isOwnMessage, data) => {
  
-const element = `<li class= "${isOwnMessage ? "message-right": "message-left"}">
+const element = `<li class= "${
+  isOwnMessage ? 'message-right' : 'message-left'
+}">
 <p class="message">${data.message}
-<span>${now}</span></p></li>`
+<span>${data.name}  &#8226; ${now}</span></p></li>`
+messageContainer.innerHTML += element;
 }

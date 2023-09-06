@@ -15,7 +15,7 @@ body {
   align-items: center; */
   display: grid;
   place-items: center;
-  background-color: #ebebeb;
+  background-color: #ffffff;
 }
 
 .title {
@@ -23,9 +23,10 @@ body {
 }
 
 .main {
-  border: 8px solid #dddddd;
+  border: 4px solid #3a3a3a;
   border-radius: 24px;
   overflow: hidden;
+ 
 }
 
 .name {
@@ -33,8 +34,8 @@ body {
   font-size: 32px;
   font-weight: 700;
   padding: 8px 16px;
-  color: #7e7e7e;
-  background-color: #ebebeb;
+  color: #242222;
+  background-color: rgb(254,237,232);
 }
 
 .name > span {
@@ -49,17 +50,17 @@ body {
   border: none;
   margin: 0px 12px;
   outline: none;
-  background-color: #ebebeb;
+  background-color: rgb(254,237,232);
 }
 
 .message-container {
   display: flex;
   flex-direction: column;
-  background-color: #f6f6f6;
-  width: 400px;
-  height: 600px;
+  height: 500px;
   overflow-y: scroll;
   overflow-x: hidden;
+   background-image: url('./bc.jpg');
+  background-size: cover;
 }
 
 .message-left,
@@ -67,7 +68,6 @@ body {
   list-style: none;
   padding: 8px 12px;
   margin: 12px;
-  max-width: 250px;
   font-size: 18px;
   word-wrap: break-word;
 }
@@ -82,7 +82,7 @@ body {
 .message-right {
   border-radius: 20px 20px 0px 20px;
   align-self: flex-end;
-  background-color: #2d2d2d;
+  background-color: rgb(22,81,56);
   box-shadow: 2px 2px 4px #dcdcdc;
   color: #f6f6f6;
 }
@@ -106,7 +106,6 @@ body {
 .message-form {
   display: flex;
   justify-content: space-between;
-  width: 400px;
 }
 
 .message-input {
@@ -120,13 +119,13 @@ body {
 }
 
 .send-button {
-  height: 48px;
+  
   font-size: 16px;
   border: none;
-  padding: 0px 20px;
   outline: none;
   background-color: #fff;
   cursor: pointer;
+  width: 50px;
 }
 
 .v-divider {
