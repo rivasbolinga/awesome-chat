@@ -1,7 +1,7 @@
 <div align="center">
 
 # Awesome Chat 
-<img width="400px" src="https://github.com/rivasbolinga/chat-app/assets/103900838/d28d92b3-5d22-45f3-b2b3-31461d267ab3"/>
+<img width="500px" src="https://github.com/rivasbolinga/chat-app/assets/103900838/d28d92b3-5d22-45f3-b2b3-31461d267ab3"/>
 
 
 </div>
@@ -27,7 +27,8 @@
 
 # 🖌️🖌️ About the project <a name="getting-started"></a> 🖌️🖌️🖌️
 
-<p>Awesome Chat is an small application created with web sockets where you can send instant messages </p>
+<p>A chat application is a digital platform facilitating real-time text-based communication between users, enabling instant messaging, sharing media, and emoticons.</p>
+<p>Built with the purpose of learning Web Sockets with node.js using Express</p>
 ----
   
 # 🛠🛠 Built With 🛠🛠<a name="built-with"></a>
@@ -45,14 +46,14 @@
 
 # 👣👣👣👣 Key Features 👣👣👣👣 <a name="key-features"></a>
 
-- [ ] **Tours page**
-- [ ] **Single tour page with a tour details**
-- [ ] **Authentication**
+- [ ] **Instant messages**
+- [ ] **Unlimited users can join**
+- [ ] **You can send you favourite emojies**
 
 
 <!-- GETTING STARTED -->
 
-# 🚀🚀🚀🚀🚀 Getting Started  🚀🚀🚀🚀🚀<a name="getting-started"></a>
+# 🚀🚀 Getting Started  🚀🚀<a name="getting-started"></a>
 
 ### Prerequisites
 
@@ -70,7 +71,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git https://github.com/rivasbolinga/natours-api.git
+  git https://github.com/rivasbolinga/awesome-chat.git
 ```
 
 
